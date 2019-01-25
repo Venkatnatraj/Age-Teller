@@ -12,16 +12,16 @@ class App extends Component {
       show:false
     }
   }
-  // changeBirthday=()=>{
-  //   this.setState({ 
-  //     birthday:this.state.newDate,
-  //     show:true
-  //   })
-  // }
+  changeBirthday=()=>{
+    this.setState({ 
+      birthday:this.state.newDate,
+      show:true
+    })
+  }
   render() {
     return (
       <div className="App">
-        {/* <Form inline>
+        <Form inline>
           <h2>Input Your Birthday!!!</h2>
           <FormControl 
             type='date'
@@ -32,15 +32,15 @@ class App extends Component {
           <Button onClick={()=>this.changeBirthday()}>
             submit 
           </Button>
-          {
+          {/* {
             this.state.show ? 
             <div className="fade age-stats">
             <Date date={this.state.birthday}/>
             </div>
             :
             <div></div>
-          }
-        </Form> */}
+          } */}
+        </Form>
       </div>
     );
   }
