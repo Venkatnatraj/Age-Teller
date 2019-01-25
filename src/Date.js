@@ -21,7 +21,7 @@ export default class Date extends Component {
         <div>
             <h3>{this.props.date}</h3>
             <h4>Congrats on {this.timeSince(this.props.date)}!</h4>
-            {/* <img src={download} alt="Birthday_Party" className="birthday"/> */}
+            <img src={download} alt="Birthday_Party" className="birthday"/>
         </div>
         )
     }
