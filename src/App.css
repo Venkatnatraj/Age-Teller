@@ -7,7 +7,7 @@
   width: 200px;
   height: 200px;
 }
-/* .fade {
+.fade {
   animation-name: fade-in;
   animation-duration: 2s;
 }
@@ -17,4 +17,4 @@
 @keyframes fade-in {
   from { opacity: 0 }
   to {opacity: 100 }
-} */
+}
