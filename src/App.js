@@ -32,14 +32,14 @@ class App extends Component {
           <Button onClick={()=>this.changeBirthday()}>
             submit 
           </Button>
-          {/* {
+          {
             this.state.show ? 
             <div className="fade age-stats">
             <Date date={this.state.birthday}/>
             </div>
             :
             <div></div>
-          } */}
+          }
         </Form>
       </div>
     );
